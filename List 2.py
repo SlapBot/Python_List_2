@@ -4,7 +4,7 @@ from sys import getsizeof
 import math
 
 class list_2:
-	lst_addable_values =[type([]), type(array([0]))]
+	lst_addable_values = [type([]), type(array([0]))]
 
 	def __qsort(self, arr):
 		if len(arr) <= 1:
