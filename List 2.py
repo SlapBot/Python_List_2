@@ -45,7 +45,7 @@ class list_2:
 			length += 1
 		return length
 	
-	def __getitem__(self, ndex):
+	def __getitem__(self, index):
 		return (self._lst[index])
 
 	def __setitem__(self, key, value):
